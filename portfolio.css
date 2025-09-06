@@ -155,18 +155,7 @@ body{
     background: #081b29;
     opacity: .8;
 }
-@keyframes showRight{
-    100%{
-        width: 0;
-    }
-}
-@keyframes manipActiveHover{
-    100%{
-        pointer-events: auto;
-    }
-
-}
-@media (max-width: 400px){
+@media (max-width: 416px){
     .navbar{
         display: none;
     }
@@ -183,6 +172,7 @@ body{
         display: none;
     }
 }
+
 
 
 
