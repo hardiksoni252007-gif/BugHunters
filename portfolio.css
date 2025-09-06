@@ -102,16 +102,6 @@ body{
     overflow: hidden;
     transition: .5s;
 }
-.btn-box a:hover{
-    color: #00abf0;
-}
-.btn-box a:nth-child(2){
-    background: transparent;
-    color: #00abf0;
-}
-.btn-box a:nth-child(2):hover{
-    color: #081b29;
-}
 .home-sci{
     position: absolute;
     bottom: 40px;
@@ -139,22 +129,6 @@ body{
 .home-sci a:hover{
     color: #081b29;
 }
-.home-imgHover{
-    position: absolute;
-    top: 0;
-    right: 30px;
-    width: 500px;
-    height: 100%;
-    background: transparent;
-    transition: .3s;
-    animation: manipActiveHover .1s forwards;
-    animation-delay: 4s;
-    pointer-events: none;
-}
-.home-imgHover:hover{
-    background: #081b29;
-    opacity: .8;
-}
 @media (max-width: 416px){
     .navbar{
         display: none;
@@ -172,6 +146,7 @@ body{
         display: none;
     }
 }
+
 
 
 
