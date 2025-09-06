@@ -281,8 +281,9 @@ body{
     }
 
 }
-@media (max-width: 416px){
+@media (max-width: 410px){
     .navbar{
         display: none;
     }
 }
+
