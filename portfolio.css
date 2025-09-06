@@ -145,7 +145,11 @@ body{
     .home-content p::before{
         display: none;
     }
+    .home-content h1{
+        margin-top: 10px;
+    }
 }
+
 
 
 
