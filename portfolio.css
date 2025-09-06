@@ -285,7 +285,20 @@ body{
     .navbar{
         display: none;
     }
+    .logo::before{
+        display: none;
+    }
+    .home-content h1::before{
+        display: none;
+    }
+    .home-content h3::before{
+        display: none;
+    }
+    .home-content p::before{
+        display: none;
+    }
 }
+
 
 
 
