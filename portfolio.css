@@ -279,4 +279,10 @@ body{
     100%{
         pointer-events: auto;
     }
+
+}
+@media (max-width: 416px){
+    .navbar{
+        display: none;
+    }
 }
