@@ -13,7 +13,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 20px 5%;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,8 @@ body{
 }
 
 .logo{
-    position: relative;
+    position: fixed;
+    top: 2%;
     font-size: 25px;
     color: #ededed;
     text-decoration: none;
@@ -52,37 +53,56 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
-    padding: 0 10%;
+    padding: 0 5%;
 
 }
+.img{
+    position: absolute;
+    top: 12%;
+    right: 30px;
+    width: 350px;
+    height: 250px;
+    background: white;
+}
 .home-content{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
     max-width: 600px;
+
 }
 .home-content h1{
-    position: relative;
-    font-size: 57px;
+    /* position: absolute;
+    top: 25%; */
+    font-size: 35px;
     font-weight: 700;
     line-height: 1.2;
 }
 .home-content h3{
-    position: relative;
-    font-size: 32px;
+    /* position: absolute;
+    top: 32%; */
+    font-size: 25px;
     font-weight: 700;
     color: #00abf0;
 }
+
 .home-content p{
-    position: relative;
+    /* position: absolute;
+    top: 35%; */
     font-size: 16px;
     margin: 20px 0 40px;
 }
 .home-content .btn-box{
-    position: relative;
+    /* position: absolute;
+    top: 60%; */
     display: flex;
     justify-content: space-between;
     width: 345px;
     height: 50px;
     background: transparent;
 }
+
 .btn-box a{
     position: relative;
     display: inline-flex;
@@ -102,6 +122,10 @@ body{
     overflow: hidden;
     transition: .5s;
 }
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: #00abf0;
+}
 .home-sci{
     position: absolute;
     bottom: 40px;
@@ -109,6 +133,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
 .home-sci a{
     position: relative;
     display: inline-flex;
@@ -126,34 +151,21 @@ body{
     overflow: hidden;
     transition: .5s;
 }
-.home-sci a:hover{
-    color: #081b29;
+@keyframes showRight{
+    100%{
+        width: 0;
+    }
+}
+@keyframes manipActiveHover{
+    100%{
+        pointer-events: auto;
+    }
 }
 @media (max-width: 416px){
     .navbar{
         display: none;
     }
-    .logo::before{
+    .navbar a{
         display: none;
-    }
-    .home-content h1::before{
-        display: none;
-    }
-    .home-content h3::before{
-        display: none;
-    }
-    .home-content p::before{
-        display: none;
-    }
-    .home-content h1{
-        margin-top: 10px;
     }
 }
-
-
-
-
-
-
-
-
