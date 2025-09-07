@@ -1,66 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BugHunters</title>
-    <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="bug logo.jpg" type="image/png">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="icon" href="bug logo.jpg" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header class="header">
+      <a href="#home" class="logo"
+        ><img src="bug logo.jpg" alt="" />BugHunters</a
+      >
 
-        <a href="#" class="logo"><img src="bug logo.jpg">BugHunters</a>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
 
-        <nav class="navbar">
-            <a href="bughunters.html" class="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
-        </nav>
-        
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#testimonial">Testimonial</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
-    
-    <section class="home">
 
-        <div class="img"></div>
+    <section class="home" id="home">
+      <div class="home-img">
+        <img src="bravo.jpg" alt="Profile Image" />
+      </div>
 
-        <div class="home-content">
+      <div class="home-content">
+        <h3>Hello, Myself</h3>
+        <h1>Hardik Soni</h1>
+        <h3>Developer of <span class="multiple-text">"BugHunters"</span></h3>
+        <p>
+          I have mastered skills in HTML, CSS, Javascript and Python, I am
+          capable of designing, developing and deploying websites.
+        </p>
 
-            <h1>Hey! i'm Hardik Soni</h1>
-
-            <h3>Developer of "BugHunters"</h3>
-
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-               Molestiae molestias minima alias iusto a debitis ut non, 
-               atque dolor repudiandae quisquam id ipsum assumenda ullam 
-               possimus qui distinctio est quidem?
-            </p>
-
-            <div class="btn-box">
-                <a href="#">Contact Me</a>
-                <a href="#">Gmail ID</a>
-            </div>
-
+        <div class="social-media">
+          <a href="https://www.instagram.com/__hardik7__/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.snapchat.com/web"><i class="fa-brands fa-snapchat"></i></a>
+          <a href="https://www.threads.com/@__hardik7__"><i class="fa-brands fa-threads"></i></a>
+          <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
-        
-        <div class="home-sci">
-            <a href="https://www.instagram.com/__hardik7__/"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-snapchat"></i></a>
-            <a href="https://www.threads.com/@__hardik7__"><i class="fa-brands fa-threads"></i></a>
-        </div>
-
-        <span class="home-imgHover"></span>
-
+        <a href="#" class="btn">Contact Me</a>
+      </div>
     </section>
-    
 
-    
+    <div class="about" id="about">
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>i'm a <span>Developer</span></h3>
+        <p>
+          I'm a versatile web developer who blends technical precision with
+          creative vision to build responsive, interactive, and visually
+          compelling websites. With a strong foundation in JavaScript, Python,
+          and modern web technologies.
+        </p>
 
-    
+        <a href="#" class="btn">Read More</a>
+      </div>
 
-</body>
+      <div class="about-img">
+        <img src="logo.jpg" alt="About Image" />
+      </div>
+    </div>
+
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="service-container">
+        <div class="service-box">
+          <i class="fa-solid fa-code"></i>
+          <h3>Web Development</h3>
+          <p>
+            Web development is the art and science of building websites and web
+            applications that live on the internet. It blends technical coding,
+            visual design, and user experience to create digital spaces people
+            interact with every day—from simple blogs to complex platforms like
+            e-commerce sites or social networks.
+          </p>
+
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="service-box">
+          <i class="fa-brands fa-python"></i>
+          <h3>Python</h3>
+          <p>
+            Python is a high-level, interpreted programming language known for
+            its simplicity, readability, and versatility. Created by Guido van
+            Rossum and released in 1991, Python has become one of the most
+            popular languages for everything from web development to data
+            science.
+          </p>
+
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="service-box">
+          <i class="fa-solid fa-video"></i>
+          <h3>Video Editing</h3>
+          <p>
+            Video editing is the process of organizing, enhancing, and
+            transforming raw footage into a polished, compelling visual story.
+            It's the heartbeat of post-production—where emotion, rhythm, and
+            clarity come alive through cuts, transitions, effects, and sound
+            design. Whether you're crafting a cinematic short, a product demo,
+            or a social media reel, editing is where the magic happens
+          </p>
+
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+      <div class="testimonial-box">
+        <h2 class="heading">Members</h2>
+
+        <div class="wraper">
+          <div class="testimonial-items">
+            <img src="DIPANSHU PATIDAR.jpg" alt="" />
+            <h2>Dipanshu Patidar</h2>
+            <div class="rating">
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+            </div>
+            <p>
+              My name is Dipanshu Patidar and I am currently pursuing a B.Tech
+              degree in Computer Science Engineering with specialization in
+              Artificial Intelligence and Machine Learning from Shri Vaishnav
+              Vidyapeeth Vishwavidyalaya (S.V.V.V.). I have technical skills in
+              HTML, CSS, and Python, which I have learned through my college
+              curriculum as well as from online platforms.
+            </p>
+          </div>
+
+          <div class="testimonial-items">
+            <img src="Swaroop Hirugade.jpg" alt="" />
+            <h2>Swaroop Shivaji Hirugade</h2>
+            <div class="rating">
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+            </div>
+            <p>
+              Hii I am Swaroop Shivaji Hirugade and I am currently pursuing a
+              B.tech degree in Computer science Engineering with specialization
+              in Artificial intelligence and Machine learning (AIML) from Shri
+              Vaishnav Vidyapeeth Vishwavidyalaya (SVVV) I have a skills in HTML
+              and C which I learn from online platform
+            </p>
+          </div>
+
+          <div class="testimonial-items">
+            <img src="Gourav Vishwakarma.jpg" alt="" />
+            <h2>Gourav Vishwakarma</h2>
+            <div class="rating">
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+            </div>
+            <p>
+              I’m an engineering student with a passion for technology, design,
+              and problem-solving. Currently pursuing B.Tech in Computer Science
+              Engineering at Shri Vaishnav Vidyapeeth Vishwavidyalaya
+              (S.V.V.V.), I’m building my skills step by step. I have hands-on
+              experience in programming with C, and I’ve worked on basic web
+              projects using HTML and CSS.
+            </p>
+          </div>
+
+          <div class="testimonial-items">
+            <img src="Harshita Vishwakarma.jpeg" alt="" />
+            <h2>Harshita Vishwakarma</h2>
+            <div class="rating">
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+            </div>
+            <p>
+              I am currently pursuing a B.Tech degree in Computer Science
+              Engineering with specialization in Artificial Intelligence and
+              Machine Learning from Shri Vaishnav Vidyapeeth Vishwavidyalaya In
+              addition, I hold a few professional certifications. One of my key
+              certifications is in Generative AI from Google, along with other
+              certificates that strengthen my knowledge in modern technologies.
+              I am passionate about technology, coding, and AI, and I always
+              look forward to learning new skills that can help me grow as a
+              developer and innovator.
+            </p>
+          </div>
+
+          <div class="testimonial-items">
+            <img src="Harshit Tiwari.png" alt="" />
+            <h2>Harshit Tiwari</h2>
+            <div class="rating">
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+            </div>
+            <p>
+              I am currently pursuing a B.Tech degree in Computer Science
+              Engineering with specialization in Artificial Intelligence and
+              Machine Learning from Shri Vaishnav Vidyapeeth Vishwavidyalaya
+              (S.V.V.V.).And i am a beginner
+            </p>
+          </div>
+
+          <div class="testimonial-items">
+            <img src="Garima Rathore.jpeg" alt="" />
+            <h2>Garima Rathorer</h2>
+            <div class="rating">
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+            </div>
+            <p>
+              I have completed my 10th grade
+              with 71% and my 12th grade with 60%. Apart from academics, I have
+              a strong interest in listening to music, which helps me stay
+              creative and relaxed. I am eager to keep learning and growing,
+              both personally and academically.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Us</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" name="Email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Phone Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="social">
+        <a href="https://www.instagram.com/__hardik7__/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.snapchat.com/web"><i class="fa-brands fa-snapchat"></i></a>
+        <a href="https://www.threads.com/@__hardik7__"><i class="fa-brands fa-threads"></i></a>
+        <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+
+      <p class="copyright">&copy;BugHunters - All Rights Reserved</p>
+    </footer>
+  </body>
 </html>
