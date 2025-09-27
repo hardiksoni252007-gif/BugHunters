@@ -172,7 +172,7 @@ h1{
         z-index: 100;
     }
     .menu-items.active{
-        background: var(--main-color);
+        background: #63938f;
         transform: scaleY(1);
         opacity: 1;
         visibility: visible;
@@ -235,3 +235,4 @@ h1{
 }
     
 }
+
