@@ -15,9 +15,10 @@
 html{
     font-size: 62.5%;
     overflow-x: hidden;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 }
 body{
+    height: 823px;
     background: var(--bg-color);
     color: var(--text-color);
 }
@@ -446,4 +447,5 @@ span{
         margin-bottom: 3rem;
     }
 }
+
 
