@@ -291,6 +291,7 @@ span{
     font-size: 2rem;
 }
 .contact{
+    padding: 40px;
     background: var(--bg-color);
 }
 .contact h2{
@@ -445,3 +446,4 @@ span{
         margin-bottom: 3rem;
     }
 }
+
